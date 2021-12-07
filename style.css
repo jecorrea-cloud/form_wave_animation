@@ -57,7 +57,7 @@ body {
   transform: scale(0.98);
 }
 
-/*All form stuff*/
+/*All form stuff below*/
 
 .form-control {
   position: relative;
@@ -79,4 +79,10 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
 }
